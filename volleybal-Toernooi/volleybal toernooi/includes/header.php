@@ -11,7 +11,7 @@
           <li><a href="index.php?PaginaNr=3">Wedstrijdschema</a></li>
           <li><a href="index.php?PaginaNr=4">Teams</a></li>
           <li><a href="index.php?PaginaNr=5">Inschrijven</a></li>
-          <li><a href="index.php?PaginaNr=6"> Admin</a></li>
+          <li><a href="index.php?PaginaNr=6">Admin</a></li>
             </ul>
         </nav>
 
