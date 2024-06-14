@@ -3,7 +3,6 @@
 <footer>
         <div class="social-footer">
             <a> 2024 Volleybal
-                bal
             </a>
         </div>
     </footer>
