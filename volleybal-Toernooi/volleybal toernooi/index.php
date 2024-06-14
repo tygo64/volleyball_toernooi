@@ -29,18 +29,14 @@
                 break;
 
             case 4: 
-                require('pages/puntentelling.php');
-                break;
-
-            case 5: 
                 require('pages/teams.php');
                 break;
 
-            case 6: 
+            case 5: 
                 require('pages/inschrijven.php');
                 break;
 
-            case 7:
+            case 6:
                 require('pages/login.php');
                 break;
 
