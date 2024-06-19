@@ -18,7 +18,7 @@
 </head>
 <body>
 <?php 
-include 'DBconnection1.php';
+require ('includes/DBconnection.php');
 
 // Query om alle teams op alfabetische volgorde op te halen
 $stmt = $conn->prepare("SELECT * FROM `teams` ORDER BY `teamNaam` ASC;");

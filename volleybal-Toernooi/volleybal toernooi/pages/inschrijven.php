@@ -7,7 +7,7 @@ if (isset($_POST['submit'])) {
     // Retrieve form data
     $naam = $_POST['naam'];
     $klas = $_POST['klas'];
-    echo "het werkt";
+
     // SQL query to insert data into database
     $sql = "INSERT INTO spelers (spelerNaam, spelerKlas) VALUES (:naam, :klas)";
     
@@ -24,14 +24,14 @@ if (isset($_POST['submit'])) {
         echo "Error: " . $e->getMessage();
     }
 }
-echo "test";
+
 ?>
 <div class="login-container">
     <div class="image-container">
         <img src="Volley transparent.png" alt="img">
 </div class="image-container">
         <h2>Inschrijven</h2>
-    <form method="post" action="index.php?PaginaNr=5">
+    <form method="post" action="">
             
         <div class="input-group">
             <label for="naam">Naam</label>
