@@ -61,7 +61,7 @@
     ];
     ?>
 
-    <table>
+    <table class="container">
         <tr>
             <th>Veld</th>
             <th>Team 1</th>
