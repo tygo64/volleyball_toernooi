@@ -6,6 +6,5 @@
     <title>Knock-Out</title>
 </head>
 <body>
-    
 </body>
 </html>
