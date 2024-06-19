@@ -28,17 +28,22 @@
                 require('pages/wedstrijdschema.php');
                 break;
 
-            case 4: 
+            case 4:
+                require('pages/knock-out.php');
+                break;     
+
+            case 5: 
                 require('pages/teams.php');
                 break;
 
-            case 5: 
+            case 6: 
                 require('pages/inschrijven.php');
                 break;
 
-            case 6:
+            case 7:
                 require('pages/login.php');
                 break;
+ 
 
                 default:
                 break;
