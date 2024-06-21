@@ -35,13 +35,13 @@
             <div class="round left-side">
                 <div class="matchup-group">
                     <div class="matchup">
-                        <div class="team-left">Team A</div>
-                        <div class="team-right">Team D</div>
+                        <div class="team-left"></div>
+                        <div class="team-right"></div>
                     </div>
                     <div class="spacer"></div>
                     <div class="matchup">
-                        <div class="team-left">Team E</div>
-                        <div class="team-right">Team G</div>
+                        <div class="team-left"></div>
+                        <div class="team-right"></div>
                     </div>
                 </div>
             </div>
@@ -49,11 +49,11 @@
             <div class="round center custom-position">
                 <div class="matchup-group">
                     <div class="matchup">
-                        <div class="team-left">Team A</div>
-                        <div class="team-right">Team G</div>
+                        <div class="team-left"></div>
+                        <div class="team-right"></div>
                     </div>
                     <div class="champion-box">
-                        Team A <br> Champion
+                         Champion
                     </div>
                 </div>
             </div>
@@ -61,13 +61,13 @@
             <div class="round right-side">
                 <div class="matchup-group">
                     <div class="matchup">
-                        <div class="team-left">Team B</div>
-                        <div class="team-right">Team C</div>
+                        <div class="team-left"></div>
+                        <div class="team-right"></div>
                     </div>
                     <div class="spacer"></div>
                     <div class="matchup">
-                        <div class="team-left">Team E</div>
-                        <div class="team-right">Team G</div>
+                        <div class="team-left"></div>
+                        <div class="team-right"></div>
                     </div>
                 </div>
             </div>
