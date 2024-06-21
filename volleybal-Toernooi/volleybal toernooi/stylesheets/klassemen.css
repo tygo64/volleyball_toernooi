@@ -4,8 +4,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    height: 200vh;
+    margin-top: 200px;
 }
 
 .container {
@@ -17,12 +17,13 @@ body {
 
 .poule {
     background: #fff;
-    padding: 20px;
+    width: 400px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin: 10px; /* Add margin between containers */
-    flex: 0 1 calc(33.33% - 20px); /* Change to 33.33% for three containers */
+    flex: 0 0 calc(0% - 20px); /* Change to 33.33% for three containers */
 }
 
 .poule h1 {
