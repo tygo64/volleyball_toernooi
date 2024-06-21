@@ -1,5 +1,5 @@
 body, html {
-    overflow: show; /* Prevent scrolling */
+    overflow: hidden; /* Prevent scrolling */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -9,7 +9,6 @@ body, html {
 header {
     display: flex;
     align-items: center;
-    text-align: center;
     background-color: rgb(15,162,127);
     padding: 10px 20px;
     border-bottom: 1px solid #ddd;
@@ -20,15 +19,12 @@ header {
     z-index: 1000; /* Make sure it is on top of other elements */
 }
 
-.content {
-    overflow-y: auto; /* Enable scrolling for content */
-    padding-top: 60px; /* Add padding for fixed header */
-    padding-bottom: 50px; /* Add padding for fixed footer */
-    height: calc(100vh - 110px); /* Set content height to full viewport height minus header and footer height */
-}
-
 .logo img {
     display: block;
+}
+
+nav {
+    flex-grow: 1; /* Allow nav to take remaining space */
 }
 
 nav ul {
@@ -36,11 +32,13 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: flex-start;
 }
 
 nav ul li {
     margin: 0 10px;
 }
+
 
 nav ul li a {
     text-decoration: none;
@@ -69,4 +67,11 @@ footer {
 
 .social-footer a:hover {
     text-decoration: underline;
+}
+
+.content {
+    overflow-y: auto; /* Enable scrolling for content */
+    padding-top: 60px; /* Add padding for fixed header */
+    padding-bottom: 50px; /* Add padding for fixed footer */
+    height: calc(100vh - 110px); /* Set content height to full viewport height minus header and footer height */
 }
