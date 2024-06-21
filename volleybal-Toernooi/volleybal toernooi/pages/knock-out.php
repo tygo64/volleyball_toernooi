@@ -7,7 +7,7 @@
     <title>Tournament Bracket</title>
 </head>
 <body>
-    <br><br><br><br><br>
+    <br><br><br><br><br><br>
     <div class="bracket-container">
         <div class="bracket-content">
             <div class="round left-side">
