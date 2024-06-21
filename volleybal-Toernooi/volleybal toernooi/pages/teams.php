@@ -118,7 +118,7 @@ require('includes/DBconnection.php');
 
 
 // Query to fetch all teams in alphabetical order
-$stmt = $conn->prepare("SELECT `teamNaam` FROM `teams` ORDER BY `teamNaam` ASC;");
+$stmt = $conn->prepare("SELECT `teamNaam` FROM `teams` ORDER BY `teamId` ASC;");
 $stmt->execute();
 $teams = $stmt->fetchAll(PDO::FETCH_ASSOC);
 

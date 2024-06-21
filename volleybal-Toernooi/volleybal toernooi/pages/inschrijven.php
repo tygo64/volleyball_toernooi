@@ -31,7 +31,7 @@ if (isset($_POST['submit'])) {
         <img src="Volley transparent.png" alt="img">
 </div class="image-container">
         <h2>Inschrijven</h2>
-    <form method="post" action="">
+    <form method="post" action="index.php?PaginaNr=5"">
             
         <div class="input-group">
             <label for="naam">Naam</label>
