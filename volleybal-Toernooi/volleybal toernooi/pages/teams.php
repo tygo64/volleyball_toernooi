@@ -84,34 +84,37 @@ require('includes/DBconnection.php');
 <body>
 <br><br><br><br><br>
 
-
 <?php
-  $dropdown = "SELECT `spelerNaam` FROM `spelers` ORDER BY `spelerNaam` ASC;";
-  $result = $conn->query($dropdown);
+  $dropdown = "SELECT * FROM spelers ORDER BY spelerNaam ASC";
+  $result = $conn->prepare($dropdown);
+  $result->execute();
+  // $row = $result->fetch();
 ?>
 
 <h2>Team List</h2>
 
-<!-- <form>
+<?php 
+var_dump($row);
+echo $result->rowCount();
+?>
+
+ <form>
   
 <select name="dropdown" id="dropdown">
-
             
-
+<?php
             // Check if there are results and output data as options
-            if ($result->num_rows > 0) {
+            if ($result->rowCount() > 0) {
                 while($row = $result->fetch_assoc()) {
-                  echo "<option value='" . $row["spelerId"] . "'>" . $row["spelerNaam"] . "</option>";
+                  echo "<option value='" . $row['spelerId'] . "'>" . $row['spelerNaam'] . "</option>";
                 }
             } else {
                 echo "<option value=''>No results found</option>";
             }
-            // Close connection
-            $conn->close();
+            
             ?>
         </select>
-
-</form> -->
+</form>
 
  <?php
 
