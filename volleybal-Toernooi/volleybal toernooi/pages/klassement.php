@@ -83,7 +83,7 @@ function toonPoule($pouleNaam, $teams) {
 
 </head>
 <body>
-<link rel="stylesheet" href="stylesheets/klassemen.css">
+<link rel="stylesheet" href="stylesheets/klassement.css">
     <div class="container">
         <?php
        
